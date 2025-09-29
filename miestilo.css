@@ -1,0 +1,81 @@
+header{
+    background-color: #e1d2b7;
+    padding: 1%;
+    text-align: center;
+    border-top: 10px solid rgb(69, 82, 75);
+    border-bottom: 10px solid rgb(76, 101, 83);
+    color: #2e3f1e;
+}
+
+.imagen-inline{
+    width:100px;
+    height:auto;
+    float:right;
+    display:inline;
+    margin-right:10px;
+    margin-top:5px;
+}
+
+.navbar ul{
+    background-color:rgb(76, 101, 83);
+    list-style:none;
+    text-decoration: none;
+    gap: 2rem;
+    display:flex;
+    justify-content:flex-start;
+    padding:0;
+    margin:0;
+}
+
+.btn-nav{
+    background-color:rgb(76, 101, 83);
+    color:#ffffff;
+    border:1px solid #35523c;
+    padding:10px 20px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+.btn-nav:hover{
+    background-color: #bbbe78;
+    color: #878a5d;
+}
+
+
+.contenedor{
+    display: flex;
+    width:100%;
+}
+
+.articulo{
+    background-color: #e1d2b7;
+    flex:3;
+    padding:20px;
+}
+
+.pie{
+    background-color: #44584f;
+}
+
+.propaganda{
+    background-color: #39503c;
+    flex:1;
+    padding:30px;
+    text-decoration: none;
+    list-style:none;
+}
+
+body{
+    margin: 0;
+}
+
+.pilotos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;              /* espacio entre tarjetas */
+  justify-items: center;  /* centra cada piloto en su celda */
+}
+
+.piloto {
+  text-align: center;
+}
